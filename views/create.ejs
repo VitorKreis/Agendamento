@@ -12,8 +12,8 @@
     <%- include('navbar.ejs') %>
 
 <div class="container">
-    <div class="card" style="margin-top: 150px;">
-            <h1 class="card-title" style="text-align: center;">Cadastro de Paciente</h1>
+    <div class="card m-5 mb-1">
+            <h1 class="card-header" style="text-align: center;">Cadastro de Paciente</h1>
         
         <div class="card-body">
             <form class="container" method="post" action="create">
@@ -27,6 +27,7 @@
         </div> 
     </div>
 </div>
+
     
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
@@ -38,3 +39,15 @@
     $('.cpf').mask('000.000.000-00');
 </script>
 </html>
+
+<style>
+
+    body{
+        background-color: #121214;
+    }
+
+    .card{
+        box-shadow: 7px 7px 10px #42d3ff;
+    }
+
+</style>
